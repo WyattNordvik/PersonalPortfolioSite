@@ -1,0 +1,73 @@
+.ulmenu {
+	list-style-type: none;
+	margin: 0;
+	padding: 10;
+	overflow: hidden;
+}
+
+.liheader {
+	float: right;
+	display: inline;
+	padding: 2;
+	font-size: 25;
+	display: block;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	padding: 0px 0px;
+}
+
+.portraittext {
+	float: left;
+	text-align: left;
+	display: inline;
+	padding: 2;
+	font-size: 25;
+}
+
+.liaheader {
+	float: right;
+	display: inline;
+	padding: 2;
+	font-size: 25;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 0px 5px;
+	text-decoration: none;
+}
+
+.liaheader:hover {
+	color: #6E96BF;
+}
+
+li.menu a.header {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.column {
+	float: left;
+	width: 30%;
+	padding: 10px;
+	height: 300px;
+	border: solid black;
+	border-width: 2px 2px 2px 2px;
+}
+
+.shortcolumn {
+	width: 100%;
+	border: solid black;
+	height: 30px;
+	border-width: 2px 0px 0px 0px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
