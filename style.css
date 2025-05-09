@@ -8,45 +8,36 @@
 .liheader {
 	float: right;
 	display: inline;
-	padding: 2;
+	padding: 14px 16px;
 	font-size: 25;
 	display: block;
 	color: black;
 	text-align: center;
 	text-decoration: none;
-	padding: 0px 0px;
 }
 
 .portraittext {
 	float: left;
 	text-align: left;
 	display: inline;
-	padding: 2;
-	font-size: 25;
+	padding: 2px;
+	font-size: 25px;
 }
 
 .liaheader {
 	float: right;
 	display: inline;
-	padding: 2;
-	font-size: 25;
+	padding: 2px;
+	font-size: 25px;
 	display: block;
 	color: black;
 	text-align: center;
-	padding: 0px 5px;
+	padding: ;
 	text-decoration: none;
 }
 
 .liaheader:hover {
 	color: #6E96BF;
-}
-
-li.menu a.header {
-	display: block;
-	color: black;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
 }
 
 .column {
