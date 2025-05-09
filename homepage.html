@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html style="background-color:white;">
 	<head>
-		<link rel="stylesheet" href="style.css">
+	    <link rel="stylesheet" href="style.css">  
 		<meta name="keywords" content="Portfolio">
+		<meta charset="UTF-8">
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> 
+		<script> 
+		$(function() {
+			$("#DivContent").load("HeaderNav.html"); 
+		});
+		</script>
 	</head>
 	<body>
-		<ul class="ulmenu">
-			<img src="icon" width="50" height="75" style="float:left">
-			<li class="portraittext"><a class="liaheader" href="homepage.html">John Doe</a></li>
-			<li class="liaheader"><a class="liaheader" href="contact.html">Contact</a></li>
-			<li class="liheader">/</li>
-			<li class="liaheader"><a class="liaheader" href="about.html">About</a></li>
-			<li class="liheader">/</li>
-			<li class="liaheader"><a class="liaheader" href="articles.html">Articles</a></li>
-			<li class="liheader">/</li>
-			<li class="liaheader"><a class="liaheader" href="projects.html">Projects</a></li>
-			<li class="liheader">/</li>
-			<li class="liaheader"><a class="liaheader" href="homepage.html">Home</a></li>
-		</ul>
+		<div id="DivContent"></div>
 	</body>
 	<body style="text-align:center;">
 		<div style="height:100px;"></div>
