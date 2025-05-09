@@ -7,12 +7,13 @@
 		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> 
 		<script> 
 		$(function() {
-			$("#DivContent").load("HeaderNav.html"); 
+			$("#HeaderNav").load("HeaderNav.html"); 
+			$("#FooterNav").load("FooterNav.html");
 		});
 		</script>
 	</head>
 	<body>
-		<div id="DivContent"></div>
+		<div id="HeaderNav"></div>
 	</body>
 	<form>
 		<label for="fname">First Name:</label><br>
@@ -25,4 +26,7 @@
 		<input type="text" id="message" name="message" style="width:300px;height:150px;"><br>
 		<input type="submit" value="Submit">
 	</form>
+	<body>
+		<div id="FooterNav"></div>
+	</body>
 </html>
