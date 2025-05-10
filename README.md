@@ -1,2 +1,3 @@
 # pERSONAL pORTFOLIO sITE
-npx http-server /mnt/AsahiExtra/RoadmapProjects/PersonalPortfolioSite/ -o -p 9999
+/laptop  npx http-server /mnt/AsahiExtra/RoadmapProjects/PersonalPortfolioSite/ -o -p 9999
+/desktop npx http-server /mnt/storage/CodingProjects/RoadmapProjects/PersonalPortfolioSite/ -o -p 9999
