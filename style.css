@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 10;
 	overflow: hidden;
+	color: black;
 }
 
 .liheader {
@@ -30,7 +31,7 @@
 	padding: 2px;
 	font-size: 25px;
 	display: block;
-	color: black;
+	color: #a9faf3;
 	text-align: center;
 	padding: ;
 	text-decoration: none;
@@ -62,3 +63,19 @@
 	clear: both;
 }
 
+li.homepagelist {
+	font-size:14px;
+	float:left;
+}
+
+div.reviewlist {
+	border-radius:25px;
+	border:2px #a9faf3;
+	padding:10px;
+	width:20%;
+	height:85px;
+	font-size:14px;
+	font-weight:normal;
+	margin:25px;
+	float:left;
+}
