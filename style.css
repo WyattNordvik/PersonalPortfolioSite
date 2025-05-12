@@ -52,9 +52,7 @@
 
 .shortcolumn {
 	width: 100%;
-	border: solid black;
 	height: 30px;
-	border-width: 2px 0px 0px 0px;
 }
 
 .row:after {
