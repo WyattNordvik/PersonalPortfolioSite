@@ -86,3 +86,18 @@ div.reviewlist {
 	margin:25px;
 	float:left;
 }
+
+p.picart {
+	align-text: left;
+	float: left;
+	padding:0px;
+	color:white;
+	font-size:14px;
+}
+
+.aboutcolumn {
+	float: left;
+	width: 65%;
+	padding: 30px;
+	height: auto;
+}
