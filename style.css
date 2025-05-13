@@ -101,3 +101,35 @@ p.picart {
 	padding: 30px;
 	height: auto;
 }
+
+.content-wrapper {
+	max-width:1000px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.row-flex {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.ascii-art {
+	flex: 1 1 300px;
+	font-size: 14px;
+	color: white;
+	white-space: pre;
+}
+
+.text-content {
+	flex: 2 1 400px;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+}
+
+pre {
+	overflow-x: auto;
+	white-space: pre-wrap;
+	word-break: break-word;
+}
